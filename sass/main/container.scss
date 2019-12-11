@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    &__btn {
+    }
+  
+    &__icon {
+      font-size: 5rem;
+      color: white;
+      margin-top: 9rem;
+    }
+  }

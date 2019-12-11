@@ -1,0 +1,23 @@
+{
+  "particles": {
+    "number": {
+      "value": 100
+    },
+    "size": {
+      "value": 20
+    },
+    "shape": {
+      "type": "image",
+      "image": {
+        "src": "../icon/fire.png",
+        "width": 50,
+        "height": 50
+      }
+    },
+    "move": {
+      "enable": true,
+      "direction": "top",
+      "speed":10
+    }
+  }
+}

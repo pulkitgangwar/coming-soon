@@ -1,0 +1,38 @@
+.heading-primary {
+  color: white;
+  font-size: 10rem;
+
+  @media only screen and (max-width: 35.12em) {
+    font-size: 7rem;
+  }
+
+  &--black {
+    color: black !important;
+  }
+}
+
+.heading-secondary {
+  font-size: 5rem;
+  color: white;
+
+  @media only screen and (max-width: 35.12em) {
+    font-size: 3rem;
+  }
+
+  &--black {
+    color: black !important;
+  }
+}
+
+.heading-tertiary {
+  color: white;
+  font-size: 3rem;
+
+  @media only screen and (max-width: 48em) {
+    font-size: 2.5rem;
+  }
+
+  &--black {
+    color: black !important;
+  }
+}
