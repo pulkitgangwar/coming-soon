@@ -60,8 +60,18 @@
       <div class="modal">
         <div class="modal__content">
           <h3 class="heading-tertiary">Send Your Email For Hiring Me</h3>
-          <form action="#" class="contact">
-            <input type="email" placeholder="Email" class="contact__input" />
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            class="contact"
+          >
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              class="contact__input"
+            />
             <a href="#" class="contact__btn">Submit</a>
           </form>
           <div class="modal__close">
