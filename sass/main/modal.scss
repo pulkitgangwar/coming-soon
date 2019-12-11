@@ -64,6 +64,9 @@
     margin-top: 3rem;
     padding: 1.4rem 5rem;
     background-color: white;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
 
     &:hover {
       background-color: rgba(white, 0.9);
